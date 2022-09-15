@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_market_place
+    username: root
+    password: shakee2001
+  flyway:
+    baseline-on-migrate: true
+
+
+
+
+
